@@ -1,0 +1,61 @@
+<!--File name: Contact.html
+    Author: Tsaichun Chang
+    Course: CST8285 322
+    Assignment: Assignment1
+    Date: 2023-11-05
+    Lab Professor: Alem Legesse
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" author" content="Tsaichun Chang">
+	<meta name=" description" content="Assignment1">
+	<meta name=" keywords" content="resume, contact">
+    <title>Tsaichun C.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="resume.js" defer></script>
+</head>
+<body id="contact">
+    <div class="container">
+        <header>
+            <h1>Tsaichun C.</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Projects.html">Project</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="cTitle">Contact me</div>
+    <form id="contact-form" action="javascript:void(0)" method="post">
+        <div class="contact-person">
+            <span class="required">*</span><label>Name:</label>
+            <input id="name" type="text" required><br>
+        </div>
+        <div class="contact-person">
+            <span class="required">*</span><label>Email:</label>
+            <input id="email" type="text" required><br>
+        </div>
+        <div id="message">
+        <label>Message</label><br>
+        <textarea rows="5" cols="40"></textarea><br>
+        </div>
+        <div class="button-container">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear information">
+        </div>
+    </form>
+    <footer>
+        <p><a href="https://www.linkedin.com/in/annachangtsaichun" target="_blank">
+            <img src="image/linkedin.png" alt="linkedin link"></a>
+            <span>|</span> chan0558@algonquinlive.com</p>
+        <div>Tsaichun Chang, 2023 Copyright</div>
+    </footer>
+</body>
+</html>
